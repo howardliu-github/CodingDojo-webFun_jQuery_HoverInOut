@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hover In/Out</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#1').hover(function(){
+                $('#1').attr("src", "images/visionary.jpg");
+            }, function(){
+                $('#1').attr("src", "images/cherry.jpg");
+            });
+            $('#2').hover(function(){
+                $('#2').attr("src", "images/coder2.jpg");
+            }, function(){
+                $('#2').attr("src", "images/riddlocat.png");
+            });
+            $('#3').hover(function(){
+                $('#3').attr("src", "images/codercat.jpg");
+            }, function(){
+                $('#3').attr("src", "images/stormtroopocat.png");
+            });
+            $('#4').hover(function(){
+                $('#4').attr("src", "images/cooler.png");
+            }, function(){
+                $('#4').attr("src", "images/visionary.jpg");
+            });
+        });    
+    </script>
+</head>
+
+<body>
+    <h1>Hover In/Out</h1>
+    <img id="1" src="images/oktobercat.png" alt="oktobercat">
+    <img id="2" src="images/riddlocat.png" alt="riddlocat">
+    <img id="3" src="images/stormtroopocat.png" alt="stormtroopocat">
+    <img id="4" src="images/visionary.jpg" alt="visionary">
+</body>
+</html>

@@ -1,0 +1,11 @@
+* {
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+img {
+    width: 220px;
+}
